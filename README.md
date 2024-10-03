@@ -1,4 +1,5 @@
 ## 統計のコードを試験的に公開
+https://tomokimotegi.github.io/tomoki_motegi.github.io/
 - [統計1](統計1.html)
 - [統計2](統計2.html)
 - [統計3](統計3.html)
