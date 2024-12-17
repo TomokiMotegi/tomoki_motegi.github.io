@@ -1,5 +1,5 @@
 ## 統計学の授業用コード
-講義資料は別にダウンロードすること
+講義資料は別にダウンロードすること  
 https://tomokimotegi.github.io/tomoki_motegi.github.io/
 - [統計1](統計1.html)
 - [統計2](統計2.html)
