@@ -65,18 +65,14 @@
       <h1 class="logo">        
         <script type="text/javascript">
           var imglist = new Array(
-             "img/スポッテッドガー.JPG",
-             "img/アホロートル.JPG",
-             "img/エイ.jpg",
-             "img/ポリプテルスセネガルス.JPG",
-             "img/ハイギョ.JPG",
-             "img/シーラカンス.JPG",
-             "img/ポリプテルスデルヘッジ.JPG" );
+             "img/photo1.jpg",
+             "img/photo2.jpg" );
           var selectnum = Math.floor(Math.random() * imglist.length);
           var output = "<img src=" + imglist[selectnum] + " style='width:auto;'>";
           document.write(output);
        </script>
-        <div class="logo-title">臨床獣医×インフォマティクス　Veterinary Clinical Genetics and Informatics</div>
+        <div class="logo-title">臨床獣医×インフォマティクス<br>
+        Veterinary Clinical Genetics <br>and Informatics</div>
       </h1>
     </header>
     <!-- /.header -->
@@ -97,7 +93,7 @@
           <div class="section-body about">
             <div class="about-item">
               <div class="about-image-wrapper">
-                <img class="about-image lazyload fadein" data-src="img/about/head_shot.jpg" alt="">
+                <img class="about-image lazyload fadein" data-src="img/head_shot.jpg" alt="">
               </div>
               <div class="about-body">
                 <p>
@@ -169,12 +165,12 @@
               <p>病的組織の遺伝学的異常を捉えることで治療標的を見つけられますが、手術で取得することはなかなか大変です。そこで病的組織から出てきたゲノムDNA（セルフリーDNA; cfDNA）を解析することで、元の組織における変化を捉えることに挑戦しています。cfDNAは通常の組織から得られるゲノムDNAよりも濃度が薄いため解析に工夫が必要となりますが、機械学習を駆使することで例えば図のように腫瘍組織におけるコピー数の変化を捉えることができます。これ以外にも腫瘍の体細胞変異やクロマチン変化、メチル化変化などを捉えられることがわかっています。この技術を駆使して特に腫瘍に起きている遺伝学的変化の全体像を捉えて治療に繋げていこうとしています。
                 </p>
               <h2>アンチバイオグラムを用いた動物病院における抗菌薬耐性の可視化と抗菌薬使用の適正化</h2>
-              <img src="./img/AMR_AST.jpg" style="display: block; width: 50em; margin-left: auto; margin-right: auto" alt="Picture of Antimicrobial Stewardship">
+              <img src="./img/AMR_AST.png" style="display: block; width: 50em; margin-left: auto; margin-right: auto" alt="Picture of Antimicrobial Stewardship">
               <p>
                 　抗菌薬耐性（AMR）は、ヒト・動物・環境をまたぐ“ワンヘルス”の視点から世界的な公衆衛生上の課題ですが犬や猫などの伴侶動物における効果的な抗菌薬処方の削減法とその効果については未だ十分に明らかになっていませんでした。そこで病院の薬袋耐性菌の蔓延をアンチバイオグラムを用いて可視化し、その結果から効果的な介入点を見つけることで、耐性菌を減らす研究をしています。画一的な対策ありきではなく、個々の病院における事情を病院固有のデータを基に加味した戦略（データ駆動型の抗菌薬最適化戦略）を立てることでAMRの削減を行っており、全世界的に見ても日本が先だって結果を示しています。
               </p>
               <h2>不均一な臓器老化（Heterogeneous aging）の解明</h2>
-              <img src="./img/Heterogeneous_aging.jpg" style="display: block; width: 50em; margin-left: auto; margin-right: auto" alt="Picture of Heterogeneous aging">
+              <img src="./img/Heterogeneous_aging.png" style="display: block; width: 50em; margin-left: auto; margin-right: auto" alt="Picture of Heterogeneous aging">
               <p>
                 　同じ年齢の動物を比べてみると、ある個体は腫瘍、別の個体は心疾患や腎疾患など、特定の臓器障害によって生命を落とすことが多いですが、これは臓器が不均一に老化している（Heterogeneous aging）ためと考えられます。特に犬では品種ごとに「脆弱な臓器」があり、例えばゴールデン・レトリバーでは腫瘍性疾患が、キャバリアでは僧帽弁疾患が多いため、これらの臓器が早期に老化しやすいモデルと考えて、そのメカニズムをcfDNAを用いて解析することを目指しています。
               </p>
@@ -259,12 +255,13 @@
             <div class="works-list">
               <h2>講義</h2>
               <ol class="count-ex01-1">
-                <li><a href="/lecture/stat1.html">統計学1</a></li>
-                <li><a href="/lecture/stat2.html">統計学1</a></li>
-                <li><a href="/lecture/stat3.html">統計学1</a></li>
-                <li><a href="/lecture/stat4.html">統計学1</a></li>
-                <li><a href="/lecture/ssh_key.md">遺伝研のKey</a></li>
-              </ol>              
+                <li><a href="./lecture/stat1.html">統計学1</a></li>
+                <li><a href="./lecture/stat2.html">統計学2</a></li>
+                <li><a href="./lecture/stat3.html">統計学3</a></li>
+                <li><a href="./lecture/stat4.html">統計学4</a></li>
+                <li><a href="./lecture/ssh_key.md">遺伝研のKey</a></li>
+              </ol>
+              <div class="works-list">
               <h2>学会</h2>
               <ol class="count-ex01-1">
                 <li>Huang F, Song H, <b>Motegi T</b>, Mahadevan A, Mahdaviani K, Wang S, Aggarwal R, Le T, Liu H, Reichel R, Tsui M, Simon-Plumb C, Li D, Ilinski A, Codanlo N, Ozkan G, Stadnicki K, Mortazavi-Zadeh A, Gignac G, Campbell J. (3/20) Genomic analysis of cfDNA samples from Black patients with metastatic castration-resistant prostate cancer to explore gene alterations associated with tumor progression and treatment resistance. J Clin Oncol 43(16_suppl):e17060, 2025.</li>
