@@ -1,51 +1,461 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>東京農工大学 獣医分子病態治療学</title>
-<meta name="keywords" content="小動物、 バイオインフォマティクス>
-<meta name="description" content="ページの説明">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="index.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='臨床獣医×インフォマティクス　Veterinary Clinical Genetics and Informatics'>
+  <meta property='og:url' content='https://tomokimotegi.github.io/tomoki_motegi.github.io/'>
+  <meta property='og:description' content='臨床獣医×インフォマティクス　Veterinary Clinical Genetics and Informatics'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="臨床獣医×インフォマティクス　Veterinary Clinical Genetics and Informatics" />
+  <title>農工大　臨床獣医×インフォマティクス　Veterinary Clinical Genetics and Informatics</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”https://tomokimotegi.github.io/tomoki_motegi.github.io/” />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BR6BPFH6JB');
+  </script>
+    
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider').bxSlider({
+            auto: true,
+            pause: 5000,
+            controls: false,
+            pager:false,
+            adaptiveHeight:true,
+            randomStart:true,
+        });
+    });
+</script>
+
 </head>
+
 <body>
-<div id="outer">
-<header><div id="header-container"><div id="head-inner"><a href=index.html><h1>東京農工大学 獣医分子病態治療学</h1></a>
-<p class="description">Motegi Lab　茂木朋貴研究室　Veterinary Clinical Genetics and Informatics</p></div></div>
-</header>
-<div id="content-wrapper">
-<main>
-<div id="inner">
-<h2>獣医分子病態治療学へようこそ!!</h2>
-<p>当研究室は東京農工大学獣医学科にある臨床系研究室の1つです。<BR>犬や猫など伴侶動物の病気をテーマに、遺伝子解析を用いて<BR>
-  ・なぜその病気になるのか（病態）<BR>
-  ・その病気をどうやって見つけるか（診断）<BR>
-  ・その病気をどうやって治すか（治療）<BR>
-  について研究しています。</p>
-<h3>学生の募集</h3>
-<p>東京農工大および岩手大学の共同獣医学科学部生が配属可能です。<BR>
-興味のある学生さんは、ぜひ一度見学に来てください。<BR>
-  （E-mail tmotegi{ at }go.tuat.ac.jp  4号館の1階114号室です）</p>
-<h3>大学院生について</h3>
-<p>本研究室の研究テーマに興味を持ち、熱意を持って研究に取り組んでくれる大学院生を、分野を問わず歓迎いたします。<BR>
-◇農学専攻国際イノベーション農学コース（修士課程）<BR>
-<a href="https://www.tuat.ac.jp/co-vet/" target="_blank" rel="noopener noreferrer">◇共同獣医学専攻（4年制博士課程）</a><BR>
-→募集要項は <a href="https://www.tuat.ac.jp/admission/nyushi_daigakuin/youkou/nougakuhu_of_index.html" target="_blank" rel="noopener noreferrer">こちら</a><BR>
-日本学術振興会特別研究員（DC,PD）などフェローシップ申請のサポートも行いますので、興味のある方はまずはご相談ください</p>
-</div>
-</main>
-<aside>
-<div id="middle-inner">
-<div class="side-title">menu</div>
-<div class="side">
-<ul>
-<li><a href="https://scholar.google.co.jp/citations?user=o8WlsAMAAAAJ&hl=ja" target="_blank" rel="noopener noreferrer">これまでの業績</a></li>
-<li>研究内容について（準備中）</li>
-</ul>
-</div>
-</div>
-</aside>
-</div>
-<footer>© 2010 あなたのホームページ</footer>
-</div></body>
+  <div class="wrapper">
+
+    <!-- .gnav -->
+    <nav class="gnav" class="fixed">
+      <ul class="gnav-list">
+        <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#research-section">RESEARCH</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#works-section">PUBLICATIONS</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#otherworks-section">OTHER WORKS</a></li>
+        <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <!-- /.gnav -->
+
+    <!-- .header -->
+    <header class="header">
+      <h1 class="logo">        
+        <script type="text/javascript">
+          var imglist = new Array(
+             "img/スポッテッドガー.JPG",
+             "img/アホロートル.JPG",
+             "img/エイ.jpg",
+             "img/ポリプテルスセネガルス.JPG",
+             "img/ハイギョ.JPG",
+             "img/シーラカンス.JPG",
+             "img/ポリプテルスデルヘッジ.JPG" );
+          var selectnum = Math.floor(Math.random() * imglist.length);
+          var output = "<img src=" + imglist[selectnum] + " style='width:auto;'>";
+          document.write(output);
+       </script>
+        <div class="logo-title">臨床獣医×インフォマティクス　Veterinary Clinical Genetics and Informatics</div>
+      </h1>
+    </header>
+    <!-- /.header -->
+
+    <main class="content">
+
+      <!-- .about-section -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">ABOUT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              茂木　朋貴 (Tomoki Motegi)
+            </p>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image lazyload fadein" data-src="img/about/head_shot.jpg" alt="">
+              </div>
+              <div class="about-body">
+                <p>
+                  獣医師　Doctor of Veterinary Medicine<br>
+                  博士(獣医学)　Doctor of Philosophy in Veterinary Medicine<br>
+                </p>
+                <p>
+                  私は小動物臨床医でありながら、遺伝子解析を専門とする研究室を主催する教員でもあります。ゲノム上における多型の研究経験から、疾患とゲノム多型・変異、エピゲノム変化、遺伝子発現変動を駆使して、あらゆる生物における疾患の病因を解明することを目指しています。<br>
+                  I am a veterinary physician-scientist pursuing a career path as a laboratory-based investigator. My initial postdoctoral training focused on investigating the influence of rare variants in rheumatoid arthritis. This sparked my profound interest in genomic research, leading me to explore germline variant and differential expression analyses to understand the etiologies of various diseases..
+                </p>
+                <h3>学生・大学院生の募集</h3>
+                <p>
+                  東京農工大および岩手大学の共同獣医学科学部生が配属可能です。<br>
+                  興味のある学生さんは、ぜひ一度見学に来てください。<br>
+                </p>
+                <p>
+                  本研究室の研究テーマに興味を持ち、熱意を持って研究に取り組んでくれる大学院生を、分野を問わず歓迎いたします。<br>
+                  ◇農学専攻国際イノベーション農学コース（修士課程）<br>
+                  <a href="https://www.tuat.ac.jp/co-vet/" target="_blank" rel="noopener noreferrer">◇共同獣医学専攻（4年制博士課程）</a><br>
+                  →募集要項は<a href="https://www.tuat.ac.jp/admission/nyushi_daigakuin/youkou/nougakuhu_of_index.html" target="_blank" rel="noopener noreferrer">こちら</a><br>
+                  日本学術振興会特別研究員（DC,PD）などフェローシップ申請のサポートも行いますので、興味のある方はまずはご相談ください<br>
+                </p>
+                <h3>Training</h3>
+                <ul>
+                  <li>2022-2025 Boston University Chobanian & Avedisian School of Medicine, Section of Computational Biomedicine (Postdoctoral Fellow)</li>
+                  <li>2018-2022 The University of Tokyo Veterinary Medical Center (Neurology, Endocrinology, Urology)</li>
+                  <li>2017-2018 RIKEN, IMS (Postdoctoral Fellow)</li>
+                </ul><br>
+                <h3>Education</h3>
+                <ul>
+                  <li>2013-2017 The Univertity of Tokyo (PhD course)</li>
+                  <li>2008-2013 Iwate University (Bachelor of Veterinary Science)</li>
+                  <li>2005-2008 Toho University (Bachelor of Molecular Biology)</li>
+                </ul><br>
+                <h3>Fellowship</h3>
+                <ul>
+                  <li>2015-2017 JSPS Research Fellowship for Young Scientists DC2</li>
+                </ul><br>
+                <h3>Keywords（研究領域）</h3>
+                <p>
+                  Genetics（遺伝学）, Comparative Oncology（比較腫瘍学）, Infection Diseases（感染症）, Aging（老化）......
+                </p>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about-section -->
+
+      <!-- .research-section -->
+      <section class="works-section section" id="research-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">RESEARCH</h2>
+          </div>
+          <div class="section-lead">
+            <p>研究テーマ</p>
+          </div>
+          <div class="section-body works">
+            <div class="about-body">
+            <!--
+              <h2></h2>
+              <img src="./img/cfDNA_CNA.png" style="display: block; margin: auto;" alt="Picture of cfDNA_CNA">
+              <p>
+                </p>
+                -->
+              <h2>cfDNAを用いたマルチオミクス解析</h2>
+              <img src="./img/cfDNA_CNA.png" style="display: block; margin: auto;" alt="Picture of Analysi of CNA using cfDNA">
+              <p>病的組織の遺伝学的異常を捉えることで治療標的を見つけられますが、手術で取得することはなかなか大変です。そこで病的組織から出てきたゲノムDNA（セルフリーDNA; cfDNA）を解析することで、元の組織における変化を捉えることに挑戦しています。cfDNAは通常の組織から得られるゲノムDNAよりも濃度が薄いため解析に工夫が必要となりますが、機械学習を駆使することで例えば図のように腫瘍組織におけるコピー数の変化を捉えることができます。これ以外にも腫瘍の体細胞変異やクロマチン変化、メチル化変化などを捉えられることがわかっています。この技術を駆使して特に腫瘍に起きている遺伝学的変化の全体像を捉えて治療に繋げていこうとしています。
+                </p>
+              <h2>アンチバイオグラムを用いた動物病院における抗菌薬耐性の可視化と抗菌薬使用の適正化</h2>
+              <img src="./img/AMR_AST.jpg" style="display: block; width: 50em; margin-left: auto; margin-right: auto" alt="Picture of Antimicrobial Stewardship">
+              <p>
+                　抗菌薬耐性（AMR）は、ヒト・動物・環境をまたぐ“ワンヘルス”の視点から世界的な公衆衛生上の課題ですが犬や猫などの伴侶動物における効果的な抗菌薬処方の削減法とその効果については未だ十分に明らかになっていませんでした。そこで病院の薬袋耐性菌の蔓延をアンチバイオグラムを用いて可視化し、その結果から効果的な介入点を見つけることで、耐性菌を減らす研究をしています。画一的な対策ありきではなく、個々の病院における事情を病院固有のデータを基に加味した戦略（データ駆動型の抗菌薬最適化戦略）を立てることでAMRの削減を行っており、全世界的に見ても日本が先だって結果を示しています。
+              </p>
+              <h2>不均一な臓器老化（Heterogeneous aging）の解明</h2>
+              <img src="./img/Heterogeneous_aging.jpg" style="display: block; width: 50em; margin-left: auto; margin-right: auto" alt="Picture of Heterogeneous aging">
+              <p>
+                　同じ年齢の動物を比べてみると、ある個体は腫瘍、別の個体は心疾患や腎疾患など、特定の臓器障害によって生命を落とすことが多いですが、これは臓器が不均一に老化している（Heterogeneous aging）ためと考えられます。特に犬では品種ごとに「脆弱な臓器」があり、例えばゴールデン・レトリバーでは腫瘍性疾患が、キャバリアでは僧帽弁疾患が多いため、これらの臓器が早期に老化しやすいモデルと考えて、そのメカニズムをcfDNAを用いて解析することを目指しています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.research-section -->      
+
+      <!-- .works-section -->
+      <section class="works-section section" id="works-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">PUBLICATIONS</h2>
+          </div>
+          <div class="section-lead">
+            <p>出版物(論文等)<br>
+            2025年度現在：40報<br>
+            筆頭著者（Equal contributionを含む）：10報<br>
+            責任著者：4報<br>
+            <a href="https://scholar.google.co.jp/citations?user=o8WlsAMAAAAJ&hl=ja" target="_blank" rel="noopener noreferrer">全ての業績はこちらからご覧ください</a><br>
+            代表的な論文は以下の通りです。</p>
+          </div>
+          <div class="section-body works">
+            <div class="works-list">
+              <h2>Major Publication</h2>
+              <ol class="count-ex01-2">
+              <!--
+                <li>
+                <br>
+                 （解説準備中）<br>
+                </li>
+                -->
+                <li>
+                  <b>Motegi T</b>, Fukuoka R, Tsuyuki Y, Nagakubo D, Maeda S, Yonezawa T, Nishimura R, Momoi Y. Evaluating a Targeted Antimicrobial Stewardship Program and Its Temporal Association with Resistance Trends in a Veterinary Referral Hospital. Vet Sci. 2025 Aug 8;12(8):743. doi: 10.3390/vetsci12080743. PMID: 40872694; PMCID: PMC12390016.<br>
+                  抗菌薬耐性（AMR）は、ヒト・動物・環境をまたぐ“ワンヘルス”の視点から世界的な公衆衛生上の課題とされ、WHO・WOAH・FAOを中心に対策が求められています。本研究では、東京大学附属動物医療センターにおいて、2016年から2024年の間に得られた約11,000件の抗菌薬処方と878件の細菌検出データをもとに、薬剤使用と耐性の関係を解析しました。独自の抗菌薬適正使用支援（ASP）プログラム（グラム染色による迅速診断、院内アンチバイオグラムを用いた薬剤選択、処方に関する教育とフィードバック）を導入したところ<br>
+•	総抗菌薬使用量は2020年までに52%減少<br>
+•	カルバペネム系・フルオロキノロン系薬剤の使用が70–90%以上減少<br>
+•	ESBL産生大腸菌の検出率が53% → 24%、ESBL産生Klebsiella属菌では78% → 7%に低下（2022年）<br>
+このように、介入後の使用抑制と薬剤耐性の低下が時系列的に一致しており、動物病院においても抗菌薬使用の見直しが効果的であることが明らかとなりました。
+一方、メチシリン耐性ブドウ球菌については減少幅が限定的（64%→53%）であり、感染管理の強化や診断支援のさらなる充実が今後の課題とされています。<br>
+                </li>
+                <li>
+                Kusumoto M†, <b>Motegi T†</b>, Uno H, Yokono M, Harada K. Pharmacokinetic-pharmacodynamic analysis of cefmetazole against extended-spectrum β-lactamase-producing Enterobacteriaceae in dogs using Monte Carlo Simulation. Front Vet Sci. 2023 Sep 28;10:1270137. doi: 10.3389/fvets.2023.1270137. PMID: 37841458; PMCID: PMC10569024.<br>
+                 セフメタゾールの最適投与法をマルコフ連鎖モンテカルロ法を用いて薬物動態から推定した論文（解説準備中）<br>
+                </li>
+                <li>
+                Shitamori F†, Nonogaki A†, <b>Motegi T†</b>, Matsumoto Y, Sakamoto M, Tanizawa Y, Nakamura Y, Yonezawa T, Momoi Y, Maeda S. Large-scale epidemiological study on feline autosomal dominant polycystic kidney disease and identification of novel PKD1 gene variants. J Feline Med Surg. 2023 Jul;25(7):1098612X231185393. doi: 10.1177/1098612X231185393. PMID: 37489504; PMCID: PMC10812055.<br>
+                猫のPDK1大規模解析論文（解説準備中）<br>
+                </li>
+                <li>
+                Maeda S, <b>Motegi T</b>, Iio A, Kaji K, Goto-Koshino Y, Eto S, Ikeda N, Nakagawa T, Nishimura R, Yonezawa T, Momoi Y. Anti-CCR4 treatment depletes regulatory T cells and leads to clinical activity in a canine model of advanced prostate cancer. J Immunother Cancer. 2022 Feb;10(2):e003731. doi: 10.1136/jitc-2021-003731. PMID: 35131860; PMCID: PMC8804701.<br>
+                イヌの前立腺がんの治療標的をトランスクリプトームを用いて見つけ、免疫療法の治験を実施し、ヒトまでの拡張性を示した論文（解説準備中）<br>
+                </li>
+                <li>
+                <b>Motegi T</b>, Kochi Y, Matsuda K, Kubo M, Yamamoto K, Momozawa Y. Identification of rare coding variants in TYK2 protective for rheumatoid arthritis in the Japanese population and their effects on cytokine signalling. Ann Rheum Dis. 2019 Aug;78(8):1062-1069. doi: 10.1136/annrheumdis-2019-215062. Epub 2019 May 22. PMID: 31118190.<br>
+                ヒト関節リウマチの原因遺伝子98個を約6000人で解析し、レアバリアントがTYK2に蓄積することから新規治療ターゲットを示した論文（解説準備中）<br>
+                </li>
+                <li>
+                <b>Motegi T</b>, Tomiyasu H, Goto-Koshino Y, Takahashi M, Hiyoshi-Kanemoto S, Fujino Y, Ohno K, Tsuimoto H. Prognostic value of CD44 variant isoform expression in dogs with multicentric high-grade B-cell lymphoma. Am J Vet Res. 2018 Sep;79(9):961-969. doi: 10.2460/ajvr.79.9.961. PMID: 30153061.<br>
+                イヌ多中心型大細胞性B細胞リンパ腫におけるCD44のバリアントアイソフォームの発現と予後を示した論文（解説準備中）<br>
+                </li>
+                <li>
+                <b>Motegi T</b>, Katayama M, Uzuka Y, Okamura Y. Evaluation of anticancer effects and enhanced doxorubicin cytotoxicity of xanthine derivatives using canine hemangiosarcoma cell lines. Res Vet Sci. 2013 Oct;95(2):600-5. doi: 10.1016/j.rvsc.2013.06.011. Epub 2013 Jul 18. PMID: 23871419.<br>
+                イヌ血管肉腫細胞株におけるカフェインを含めたメチルキサンチン誘導体の抗がん剤増強効果を示した論文（解説準備中）<br>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.works-section -->
+
+      <!-- .feature-section -->
+      <section class="feature-section section" id="otherworks-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">OTHER WORKS</h2>
+            <p>作ったものや、学会発表など</p>
+          </div>
+          <div class="section-body works">
+            <div class="works-list">
+              <h2>講義</h2>
+              <ol class="count-ex01-1">
+                <li><a href="/lecture/stat1.html">統計学1</a></li>
+                <li><a href="/lecture/stat2.html">統計学1</a></li>
+                <li><a href="/lecture/stat3.html">統計学1</a></li>
+                <li><a href="/lecture/stat4.html">統計学1</a></li>
+                <li><a href="/lecture/ssh_key.md">遺伝研のKey</a></li>
+              </ol>              
+              <h2>学会</h2>
+              <ol class="count-ex01-1">
+                <li>Huang F, Song H, <b>Motegi T</b>, Mahadevan A, Mahdaviani K, Wang S, Aggarwal R, Le T, Liu H, Reichel R, Tsui M, Simon-Plumb C, Li D, Ilinski A, Codanlo N, Ozkan G, Stadnicki K, Mortazavi-Zadeh A, Gignac G, Campbell J. (3/20) Genomic analysis of cfDNA samples from Black patients with metastatic castration-resistant prostate cancer to explore gene alterations associated with tumor progression and treatment resistance. J Clin Oncol 43(16_suppl):e17060, 2025.</li>
+                <li><b>Motegi T</b> and Campbell J*. (1/2) Abstract C004: Assessing local ancestry inference using different sequencing assays and depth of coverage. Cancer Epidemiol Biomarkers Prev 32(12_Supplement): C004, 2023.</li>
+              </ol>
+             </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.feature-section -->
+
+      <!-- .contact-section -->
+      <section class="contact-section section" id="contact-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">SKILL & CONTACT</h2>
+          </div>
+          <div class="section-lead">
+            <p>
+              お問い合わせは、<br class="sp-only">メールでお願いいたします。<br><br>
+            </p>
+            <div class="skill-list">
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/python.png" alt=""></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">Python</h3>
+                  <p class="skill-text">
+                    基本的なデータ処理から機械学習を用いた解析、ツール開発
+                  </p>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/R.png" alt=""></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">R</h3>
+                  <p class="skill-text">
+                    コピー数異常・網羅的発現変動解析、統計解析、グラフなどを用いた視覚化
+                  </p>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/ubuntu.png" alt=""></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">Linux</h3>
+                  <p class="skill-text">
+                    ゲノム解析・エピゲノム・発現変動解析のためのパイプラインの構築やHPCを用いた並列解析
+                  </p>
+                </div>
+              </div>
+
+              <div class="skill-item">
+                <p class="skill-img"><img src="img/wdl.png" alt=""></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">WDL</h3>
+                  <p class="skill-text">
+                    ワークフロー記述言語を用いたパイプライン作成やBroadが提供する各種パイプラインをGrid Engine上で実行できるように改変
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">研究・開発</h3>
+                  <div class="skill-text">
+                    <ul>
+                      <li>WGSを用い生殖細胞系列多型・構造異常の解析</li>
+                      <li>SNPアレイやWESにおけるSNP情報のImputation</li>
+                      <li>cfDNAを用いたゲノム・エピゲノム解析</li>
+                      <li>WESを用いた体細胞変異・CNV解析</li>
+                      <li>RNA-seqを用いた網羅的発現変動解析(GSEAを含めた下流解析・Immune-cell decovolution.etc)</li>
+                      <li>上記の可視化</li>
+                      <li>LDブロックレベルの祖先推定とその統合解析</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <p class="skill-img"></p>
+                <div class="skill-body">
+                  <h3 class="skill-name">その他資格など</h3>
+                  <div class="skill-text">
+                    <ul>
+                      <li>第一種放射線取扱主任者試験合格</li>
+                      <li>潜水士</li>
+                      <li>認定ICD（日本感染症学会推薦）</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="section-body contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                <a class="contact-link" href="https://www.researchgate.net/profile/Tomoki-Motegi-2" target="_blank"><img class="contact-image"
+                    src="img/contact/ResearchGate_icon.png" alt="" style="width: 100%;"></a>
+              </li>
+              <li class="contact-item">
+                <a class="contact-link" href="https://scholar.google.co.jp/citations?user=o8WlsAMAAAAJ" target="_blank"><img class="contact-image"
+                    src="img/contact/Google_Scholar_logo.png" alt="" style="width: 100%;"></a>
+              </li>
+            </ul>
+            <div class="contact-text">E-mail tmotegi{ at }go.tuat.ac.jp </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.contact-section -->
+
+    </main>
+
+    <!-- .footer -->
+    <footer class="footer">
+      <div class="inner">
+        <div class="copyright">.</div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+
+  <!-- 下記はPhotoswipeプラグイン用 -->
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+       It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <button class="pswp__button pswp__button--share" title="Share"></button>
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
 </html>
